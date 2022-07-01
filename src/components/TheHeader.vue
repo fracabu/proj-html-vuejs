@@ -1,5 +1,6 @@
 <template>
-    <div class="container-jumbo"> 
+<div class="container">
+    <div class="jumbo"> 
     <div class="nav py-3">
         <div class="d-flex flex-grow-1">
             <img :src="require('../assets/img/avada-charity-logo.png')" alt="" class="logo-nav d-flex">
@@ -9,6 +10,7 @@
                 {{ menu.text }}
             </li>
         </ul>
+    </div>
     </div>
     </div>
 </template>
@@ -33,11 +35,11 @@ export default {
 
 <style lang="scss" scoped>
 
-.container-jumbo{
+.jumbo{
     background-image: url('../assets/img/home-page-slider.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-   
+
     height: 500px;
 }
 

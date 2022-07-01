@@ -6,9 +6,8 @@
                 <div class="col-8">
                     <h1 class="text-uppecase text-start pt-5">every moment count</h1>
                     <div class="text-start">____________</div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quibusdam consectetur quam
-                        porro iure magni alias fuga numquam, tempora voluptate id explicabo accusantium ullam aut
-                        distinctio modi ipsam praesentium sunt?</p>
+                    <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, quibusdam consectetur quam
+                        </p>
                     <div class="text-start"><button>our mission</button></div>
                 </div>
                 <div class="col-4">
