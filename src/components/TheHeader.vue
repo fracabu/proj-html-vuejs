@@ -1,5 +1,5 @@
 <template>
-
+    <div class="container-jumbo"> 
     <div class="nav py-3">
         <div class="d-flex flex-grow-1">
             <img :src="require('../assets/img/avada-charity-logo.png')" alt="" class="logo-nav d-flex">
@@ -9,6 +9,7 @@
                 {{ menu.text }}
             </li>
         </ul>
+    </div>
     </div>
 </template>
 
@@ -31,10 +32,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.nav {
-    position: relative;
-    z-index: 1;
-    flex-grow: 1;
+
+.container-jumbo{
+    background-image: url('../assets/img/home-page-slider.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    height: 500px;
 }
 
 .logo-nav {
