@@ -28,22 +28,63 @@
         <!-- SEZIONE OUR VALUES -->
         <div class="container">
             <div class="bg-img">
+                <div class="container py-5">
+                    <h1 class="text-white text-center text-uppercase">our values</h1>
+                </div>
                 <div class="row py-5 text-white">
-                    <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque perspiciatis et,
-                        nam, sint cupiditate earum reiciendis aliquam fuga placeat laborum voluptas reprehenderit
-                        inventore, consequatur laudantium odit corrupti est! Temporibus, rerum?</div>
-                    <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugit aspernatur
-                        consequatur distinctio voluptatem quo sequi, sunt fuga magnam quisquam debitis dolor atque. Nemo
-                        iste iure repellat necessitatibus accusantium quae.</div>
-                    <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vel odit, ea
-                        magnam eos qui labore porro consequatur at possimus accusantium tempora nemo ut? Quae similique
-                        blanditiis nam eligendi provident.</div>
-                    <div class="col-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum vel odit, ea
-                        magnam eos qui labore porro consequatur at possimus accusantium tempora nemo ut? Quae similique
-                        blanditiis nam eligendi provident.</div>
+                    <div class="col-3">
+                        <div>icona</div>
+                        <div>testo icona</div>
+                        <div>testo</div>
+                        <div><button>clicca</button></div>
+                    </div>
+                    <div class="col-3">
+                        <div>icona</div>
+                        <div>testo icona</div>
+                        <div>testo</div>
+                        <div><button>clicca</button></div>
+                    </div>
+                    <div class="col-3">
+                        <div>icona</div>
+                        <div>testo icona</div>
+                        <div>testo</div>
+                        <div><button>clicca</button></div>
+                    </div>
+                    <div class="col-3">
+                        <div>icona</div>
+                        <div>testo icona</div>
+                        <div>testo</div>
+                        <div><button>clicca</button></div>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <!-- SEZIONE RECENT CAUSES -->
+        <div class="container py-5">
+            <div class="text center text-uppercase">
+                <h1> recent causes</h1>
+                <span>_____________</span>
+            </div>
+            <div class="py-5">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi dolores eius mollitia</p>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <img src="../assets/img/avada-charity-fair-trade-featured-200x150.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="../assets/img/avada-charity-shelter-featured-200x150.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="../assets/img/avada-charity-farming-featured-200x150.jpg" alt="">
+                </div>
+                <div class="col-3">
+                    <img src="../assets/img/avada-charity-vaccines-featured-200x150.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
     </div>
 </template>
 
@@ -55,8 +96,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-
 ;
 
 .col-4 {
