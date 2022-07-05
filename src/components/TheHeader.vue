@@ -5,7 +5,7 @@
                 <div class="d-flex flex-grow-1">
                     <img :src="require('../assets/img/avada-charity-logo.png')" alt="" class="logo-nav d-flex">
                 </div>
-                <ul class="menu-nav d-flex text-white text-uppercase px-3 list-unstyled">
+                <ul class="menu-nav d-flex text-white text-uppercase list-unstyled">
                     <li class="menu" v-for="(menu, i) in ListaMenu" :key="i">
                         {{ menu.text }}
                     </li>
@@ -50,34 +50,27 @@ export default {
     background-image: url('../assets/img/home-page-slider.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-
-    height: 500px;
+    height: 700px;
 }
-
-;
 
 .logo-nav {
     width: 200px;
     margin-left: 50px;
 }
 
-;
 
 .container-title {
-    margin-top: 100px;
+    margin-top: 200px;
 
 }
-
-;
 
 .menu {
-    
+
     margin-right: 60px;
     font-size: 10px;
-    
 }
 
-.menu:hover{
+.menu:hover {
     background: #fcd66c;
 }
 </style>
