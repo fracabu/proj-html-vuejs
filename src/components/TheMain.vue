@@ -2,18 +2,19 @@
     <div>
         <!-- SEZIONE EVERY MOMENT COUNTS -->
         <div class="container">
-            <div class="row d-flex ">
+            <div class="row d-flex g-0">
                 <div class="col-8">
                     <h1 class="text-uppercase fs-3 text-start pt-5">every moment count</h1>
                     <div class="text-start">
                         <hr>
                     </div>
+                    <div>
                     <p class="text-start fs-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
                         quibusdam consectetur quam</p>
-                </div>
-                <div class="text-start"><button>our mission</button></div>
-            </div>
-            <div class="col-4 ">
+                        </div>
+                        <div class="text-start"><button>our mission</button></div>
+                </div>            
+            <div class="col-4">
                 <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt aut natus odio quisquam, iure
                     expedita nobis aspernatur facere, harum dicta adipisci repudiandae. Ex debitis ipsa quos, ullam
                     nam neque illo!</div>
@@ -24,8 +25,10 @@
                     quibusdam quia! Qui unde incidunt, perferendis, praesentium enim placeat tempore facere
                     molestias illo eum nam aliquam natus?</div>
             </div>
+            </div>
         </div>
-   
+        
+    
 
     <!-- SEZIONE OUR VALUES -->
     <div class="container">
@@ -87,7 +90,7 @@
         </div>
     </div>
 
- </div>
+</div>
 </template>
 
 <script>
@@ -102,6 +105,7 @@ export default {
 
 .col-4 {
     background-color: #ED6866;
+    
 }
 
 ;
