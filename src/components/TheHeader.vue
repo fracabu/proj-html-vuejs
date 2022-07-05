@@ -11,6 +11,16 @@
             </li>
         </ul>
     </div>
+    <div class="container-title">
+        <span class="text-center text-uppercase text-white fs-1 fw-light"> make a difference</span>
+    </div>
+    <div class="container">
+        <p class="text-white opacity-75 py-2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum culpa temporibus reiciendis </p>
+    </div>
+    <div class="container-button">
+        <button class="btn btn-outline-secondary mx-2">our mission</button>
+        <button class="btn btn-outline-warning">donate now</button>
+    </div>
     </div>
     </div>
 </template>
@@ -48,7 +58,10 @@ export default {
     margin-left: 50px;
 }
 
-;
+.container-title{
+    margin-top: 100px;
+
+}
 
 
 
